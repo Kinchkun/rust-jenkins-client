@@ -1,0 +1,12 @@
+[package]
+name = "jenkins"
+version = "0.1.0"
+authors = ["Timo Bryant <t.bryant@insiders-technologies.de>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+reqwest = "0.9.22"
+serde = "1.0.102"
+serde_json = "1.0.41"
+failure = "0.1.5"
